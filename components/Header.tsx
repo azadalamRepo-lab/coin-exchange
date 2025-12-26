@@ -26,7 +26,7 @@ const Header = () => {
                 <p>Search Model</p>
                 <Link href="/coins"
                 className={cn('nav-link', {
-                    'is-active': pathname === './coins'
+                    'is-active': pathname === '/coins'
                 })}
                 >All Coins</Link>
             </nav>
